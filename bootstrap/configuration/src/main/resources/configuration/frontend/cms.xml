@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="cms" esv:merge="combine">
+  <sv:node sv:name="cms-services" esv:merge="combine">
+    <sv:node sv:name="CustomValueListProvider">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>frontend:plugin</sv:value>
+      </sv:property>
+      <sv:property sv:name="plugin.class" sv:type="String">
+        <sv:value>org.example.services.CustomValueListService</sv:value>
+      </sv:property>
+      <sv:property sv:name="valuelist.provider" sv:type="String">
+        <sv:value>service.valuelist.custom</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

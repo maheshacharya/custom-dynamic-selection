@@ -576,7 +576,7 @@
           <sv:value>10</sv:value>
         </sv:property>
         <sv:property sv:name="valuelist.provider" sv:type="String">
-          <sv:value>service.valuelist.default</sv:value>
+          <sv:value>service.valuelist.custom</sv:value>
         </sv:property>
         <sv:property sv:name="wicket.id" sv:type="String">
           <sv:value>${cluster.id}.left.item</sv:value>
@@ -586,7 +586,7 @@
             <sv:value>frontend:pluginconfig</sv:value>
           </sv:property>
           <sv:property sv:name="source" sv:type="String">
-            <sv:value>/content/documents/customdynamicselection/value-list/regions</sv:value>
+            <sv:value/>
           </sv:property>
         </sv:node>
       </sv:node>
