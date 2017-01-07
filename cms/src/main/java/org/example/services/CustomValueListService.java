@@ -25,9 +25,15 @@ public class CustomValueListService extends Plugin implements IValueListProvider
 
     @Override
     public ValueList getValueList(String name, Locale locale) {
+
+        /**
+         * Implement any custom business logic here to fetch the values from external data source such as
+         * databases, rest etc.
+         *
+         * ValueList object below is created using hard values for demo purposes only.
+         */
+
         ValueList valuelist = new ValueList();
-
-
         valuelist.add(new ListItem("north", "North"));
         valuelist.add(new ListItem("east", "East"));
         valuelist.add(new ListItem("west", "West"));
