@@ -1,0 +1,114 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-banner-folder": "new banner folder",
+      "new-banner-document": "new banner document",
+      "new-news-document": "new news item",
+      "new-resource-bundle": "new resource bundle",
+      "new-news-folder": "new news item folder",
+      "new-untranslated-folder": "new untranslated folder"
+    },
+    "nl":     {
+      "new-banner-folder": "nieuwe banner map",
+      "new-banner-document": "nieuwe banner",
+      "new-news-document": "nieuw nieuwsbericht",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-news-folder": "nieuwe nieuwsmap",
+      "new-untranslated-folder": "nieuwe onvertaalde map"
+    },
+    "de":     {
+      "new-banner-folder": "Neuer Banner-Ordner",
+      "new-banner-document": "Neues Banner",
+      "new-news-document": "Neue News",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-news-folder": "Neuer News-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner"
+    },
+    "fr":     {
+      "new-banner-folder": "nouveau dossier bannière",
+      "new-banner-document": "nouvelle bannière",
+      "new-news-document": "nouveau message d'info",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-news-folder": "nouveau dossier messages d'info",
+      "new-untranslated-folder": "nouveau dossier non traduit"
+    }
+  },
+  "hippo:types":   {
+    "customdynamicselection:bannerdocument":     {
+      "en":       {
+        "customdynamicselection:link": "Link",
+        "customdynamicselection:image": "Image",
+        "customdynamicselection:title": "Title",
+        "jcr:name": "Banner",
+        "customdynamicselection:content": "Content"
+      },
+      "nl":       {
+        "customdynamicselection:link": "Link",
+        "customdynamicselection:image": "Afbeelding",
+        "customdynamicselection:title": "Titel",
+        "jcr:name": "Banner",
+        "customdynamicselection:content": "Inhoud"
+      },
+      "fr":       {
+        "customdynamicselection:link": "Lien",
+        "customdynamicselection:image": "Image",
+        "customdynamicselection:title": "Titre",
+        "jcr:name": "Bannière",
+        "customdynamicselection:content": "Contenu"
+      },
+      "de":       {
+        "customdynamicselection:link": "Link",
+        "customdynamicselection:image": "Abbildung",
+        "customdynamicselection:title": "Titel",
+        "jcr:name": "Banner",
+        "customdynamicselection:content": "Inhalt"
+      }
+    },
+    "customdynamicselection:newsdocument":     {
+      "en":       {
+        "customdynamicselection:date": "Date",
+        "customdynamicselection:image": "Image",
+        "jcr:name": "News Item",
+        "customdynamicselection:author": "Author",
+        "customdynamicselection:location": "Location",
+        "customdynamicselection:source": "Source",
+        "customdynamicselection:title": "Title",
+        "customdynamicselection:content": "Content",
+        "customdynamicselection:introduction": "Introduction"
+      },
+      "nl":       {
+        "customdynamicselection:date": "Datum",
+        "customdynamicselection:image": "Afbeelding",
+        "jcr:name": "Nieuwsbericht",
+        "customdynamicselection:author": "Auteur",
+        "customdynamicselection:location": "Locatie",
+        "customdynamicselection:source": "Bron",
+        "customdynamicselection:title": "Titel",
+        "customdynamicselection:content": "Inhoud",
+        "customdynamicselection:introduction": "Introductie"
+      },
+      "de":       {
+        "customdynamicselection:date": "Datum",
+        "customdynamicselection:image": "Abbildung",
+        "jcr:name": "News",
+        "customdynamicselection:author": "Verfasser",
+        "customdynamicselection:location": "Standort",
+        "customdynamicselection:source": "Quelle",
+        "customdynamicselection:title": "Titel",
+        "customdynamicselection:content": "Inhalt",
+        "customdynamicselection:introduction": "Einführung"
+      },
+      "fr":       {
+        "customdynamicselection:date": "Date",
+        "customdynamicselection:image": "Image",
+        "jcr:name": "Message d'info",
+        "customdynamicselection:author": "Auteur",
+        "customdynamicselection:location": "Lieu",
+        "customdynamicselection:source": "Source",
+        "customdynamicselection:title": "Titre",
+        "customdynamicselection:content": "Contenu",
+        "customdynamicselection:introduction": "Introduction"
+      }
+    }
+  }
+}
